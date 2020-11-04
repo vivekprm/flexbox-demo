@@ -7,6 +7,13 @@
 .parent {
   height: 100vh;
   border: 20px solid rgb(0, 0, 0);
+  /** default direction is row **/
+  display: flex;
+  flex-direction: row;
+  /** default is start **/
+  justify-content: center;
+  /** default is flex-start **/
+  align-items: center;
 }
 
 .child1 {
