@@ -16,29 +16,26 @@ h2 {
 }
 
 .child1 {
-  width: 200px;
   height: 200px;
   background: rgb(39, 61, 134);
-  /** Takes all the available space **/
-  flex-grow: 1;
+  /** Combines flex-grow, flex-shrink & flex-basis **/
+  flex: 1 1 300px;
 }
 
 .child2 {
-  width: 200px;
   height: 200px;
   background: rgb(172, 57, 53);
-  /** Two times bigger than 1 **/
-  flex-grow: 2;
+  flex: 1 1 300px;
 }
 
 .child3 {
-  width: 200px;
   height: 200px;
   background: rgb(149, 43, 140);
+  flex: 1 1 300px;
 }
 
 .child4 {
-  width: 200px;
   height: 200px;
   background: rgb(28, 156, 124);
+  flex: 1 1 300px;
 }
