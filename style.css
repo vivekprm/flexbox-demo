@@ -26,6 +26,7 @@ h2 {
   height: 200px;
   background: rgb(172, 57, 53);
   flex: 1 1 300px;
+  align-self: center;
 }
 
 .child3 {
@@ -38,4 +39,5 @@ h2 {
   height: 200px;
   background: rgb(28, 156, 124);
   flex: 1 1 300px;
+  align-self: flex-end;
 }
