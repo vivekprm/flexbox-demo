@@ -19,27 +19,26 @@ h2 {
   width: 200px;
   height: 200px;
   background: rgb(39, 61, 134);
-  /** default is 0, bigger the number it's places last in the flex end.**/
-  order: 4;
+  /** Takes all the available space **/
+  flex-grow: 1;
 }
 
 .child2 {
   width: 200px;
   height: 200px;
   background: rgb(172, 57, 53);
-  order: 2;
+  /** Two times bigger than 1 **/
+  flex-grow: 2;
 }
 
 .child3 {
   width: 200px;
   height: 200px;
   background: rgb(149, 43, 140);
-  order: 3;
 }
 
 .child4 {
   width: 200px;
   height: 200px;
   background: rgb(28, 156, 124);
-  order: 0;
 }
