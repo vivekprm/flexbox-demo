@@ -14,6 +14,10 @@
   justify-content: center;
   /** default is flex-start **/
   align-items: center;
+  /** Wrap to the next line if available width is less **/
+  flex-wrap: wrap;
+  /** Combines direction and wrap **/
+  flex-flow: column wrap;
 }
 
 .child1 {
@@ -32,4 +36,10 @@
   width: 200px;
   height: 200px;
   background: rgb(149, 43, 140);
+}
+
+.child4 {
+  width: 200px;
+  height: 200px;
+  background: rgb(28, 156, 124);
 }
